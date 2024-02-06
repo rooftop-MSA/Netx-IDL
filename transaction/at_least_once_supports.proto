@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "org.rooftop.netx.idl";
+option java_multiple_files = true;
+
+message Watch {
+  string transactionId = 1;
+  string group = 2;
+}
