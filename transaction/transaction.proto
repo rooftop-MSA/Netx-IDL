@@ -18,4 +18,5 @@ message Transaction {
   TransactionState state = 5;
   optional string undo = 7;
   optional string cause = 9;
+  optional string event = 10;
 }
